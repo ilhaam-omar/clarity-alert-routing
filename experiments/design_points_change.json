@@ -1,0 +1,10 @@
+{
+  "changed": "2026-11-01T11:03:07",
+  "n_points_before": [
+    1024
+  ],
+  "n_points_after": 4096,
+  "reason": "Priority scores converge from 4,096 combinations per envelope (convergence_test.py); 1,024 left seed-dependent sampling noise in the review ranking.",
+  "previous_config_sha256": "e1db2d0fc54757d487093fefef6f693af0dac63ffd999506e653dcc7a9b7ce39",
+  "new_config_sha256": "479fa7761bfd245e7e6869783d909435a59b75dbe4d9b102da02c2dd2f72bf59"
+}

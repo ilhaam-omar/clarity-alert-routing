@@ -1,0 +1,240 @@
+{
+  "interpretation": "Grounded design. No weight value is declared: every weight is sampled over its definitional domain [0, 1] (shares by definition; burdens, penalties and the doubt weight capped at the largest adjusted severity), the structural orders are enforced, and a weighting is kept only if it satisfies the reference-case judgements of its viewpoint (each response is the preferred response for at least one reference concern) (each response is the intended response for at least one reference concern) (clarity_v3.uncertainty.ANCHOR_CASES). Design points are stress tests, not calibrated probabilities.",
+  "action_set": {
+    "consensus_support_threshold": 0.7,
+    "suppress_support_threshold": 0.8,
+    "high_severity_floor": 8.0
+  },
+  "envelopes": [
+    {
+      "name": "clinical_safety_priority",
+      "n_points": 4096,
+      "seed": 20260723,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.0,
+          1.0
+        ],
+        "rho_alert": [
+          0.0,
+          1.0
+        ],
+        "rho_escalate": [
+          0.0,
+          1.0
+        ],
+        "burden_passive": [
+          0.0,
+          1.0
+        ],
+        "burden_alert": [
+          0.0,
+          1.0
+        ],
+        "burden_escalate": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_penalty": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_alert_fraction": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_escalate_fraction": [
+          0.0,
+          1.0
+        ],
+        "repeat_alert_penalty": [
+          0.0,
+          1.0
+        ],
+        "managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "partly_managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "escalation_delay_penalty": [
+          0.0,
+          1.0
+        ]
+      },
+      "anchor_rules": [
+        [
+          "A1_serious_new",
+          "act"
+        ],
+        [
+          "A4_serious_doubtful_new",
+          "review"
+        ],
+        [
+          "A2_low_unchanged_third_repeat",
+          "quiet"
+        ],
+        [
+          "A3_moderate_new",
+          "act"
+        ]
+      ]
+    },
+    {
+      "name": "workflow_balanced",
+      "n_points": 4096,
+      "seed": 20260724,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.0,
+          1.0
+        ],
+        "rho_alert": [
+          0.0,
+          1.0
+        ],
+        "rho_escalate": [
+          0.0,
+          1.0
+        ],
+        "burden_passive": [
+          0.0,
+          1.0
+        ],
+        "burden_alert": [
+          0.0,
+          1.0
+        ],
+        "burden_escalate": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_penalty": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_alert_fraction": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_escalate_fraction": [
+          0.0,
+          1.0
+        ],
+        "repeat_alert_penalty": [
+          0.0,
+          1.0
+        ],
+        "managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "partly_managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "escalation_delay_penalty": [
+          0.0,
+          1.0
+        ]
+      },
+      "anchor_rules": [
+        [
+          "A1_serious_new",
+          "act"
+        ],
+        [
+          "A4_serious_doubtful_new",
+          "review"
+        ],
+        [
+          "A2_low_unchanged_third_repeat",
+          "quiet"
+        ]
+      ]
+    },
+    {
+      "name": "alert_burden_priority",
+      "n_points": 4096,
+      "seed": 20260725,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.0,
+          1.0
+        ],
+        "rho_alert": [
+          0.0,
+          1.0
+        ],
+        "rho_escalate": [
+          0.0,
+          1.0
+        ],
+        "burden_passive": [
+          0.0,
+          1.0
+        ],
+        "burden_alert": [
+          0.0,
+          1.0
+        ],
+        "burden_escalate": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_penalty": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_alert_fraction": [
+          0.0,
+          1.0
+        ],
+        "uncertainty_escalate_fraction": [
+          0.0,
+          1.0
+        ],
+        "repeat_alert_penalty": [
+          0.0,
+          1.0
+        ],
+        "managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "partly_managed_residual_fraction": [
+          0.0,
+          1.0
+        ],
+        "escalation_delay_penalty": [
+          0.0,
+          1.0
+        ]
+      },
+      "anchor_rules": [
+        [
+          "A1_serious_new",
+          "act"
+        ],
+        [
+          "A4_serious_doubtful_new",
+          "review"
+        ],
+        [
+          "A2_low_unchanged_third_repeat",
+          "quiet"
+        ],
+        [
+          "A3_moderate_new",
+          "quiet"
+        ]
+      ]
+    }
+  ]
+}

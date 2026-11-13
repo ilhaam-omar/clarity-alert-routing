@@ -1,0 +1,10 @@
+{
+  "creatinine_recency_half_life_hours": 48.0,
+  "high_severity_floor": 8.0,
+  "high_evidence_support_threshold": 0.70,
+  "high_completeness_threshold": 0.70,
+  "moderate_certainty_product_threshold": 0.35,
+  "minimum_note_context_confidence": 0.80,
+  "acute_renal_harm_multiplier": 1.25,
+  "maximum_contextual_harm": 12.0
+}

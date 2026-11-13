@@ -1,0 +1,44 @@
+{
+  "interpretation": "Cohort-normalized capacity-response stress tests for MIMIC-IV Phase 1. They are not estimates of observed staffing or reconstructed hospital shifts.",
+  "denominator": "all_prescribing_order_bundles",
+  "frontline_measure": "nominal immediate alerts per 100 prescribing bundles; protected safety alerts may exceed this threshold and are reported as overruns",
+  "expert_measure": "fraction of pre-capacity expert-review demand that can be served",
+  "scenarios": [
+    {
+      "name": "low_capacity",
+      "allocation_scope": "cohort_normalized",
+      "frontline_alerts_per_100_order_bundles": 0.5,
+      "expert_review_coverage_fraction": 0.25,
+      "unconstrained": false,
+      "critical_reviews_spill_to_frontline": true,
+      "description": "Low-resource stress test: nominal frontline density 0.5 per 100 prescribing bundles and expert service for 25% of review demand."
+    },
+    {
+      "name": "medium_capacity",
+      "allocation_scope": "cohort_normalized",
+      "frontline_alerts_per_100_order_bundles": 1.0,
+      "expert_review_coverage_fraction": 0.50,
+      "unconstrained": false,
+      "critical_reviews_spill_to_frontline": true,
+      "description": "Middle stress-test point: nominal frontline density 1.0 per 100 prescribing bundles and expert service for 50% of review demand."
+    },
+    {
+      "name": "high_capacity",
+      "allocation_scope": "cohort_normalized",
+      "frontline_alerts_per_100_order_bundles": 2.0,
+      "expert_review_coverage_fraction": 0.75,
+      "unconstrained": false,
+      "critical_reviews_spill_to_frontline": true,
+      "description": "Higher-resource stress test: nominal frontline density 2.0 per 100 prescribing bundles and expert service for 75% of review demand."
+    },
+    {
+      "name": "unconstrained_reference",
+      "allocation_scope": "cohort_normalized",
+      "frontline_alerts_per_100_order_bundles": null,
+      "expert_review_coverage_fraction": 1.0,
+      "unconstrained": true,
+      "critical_reviews_spill_to_frontline": true,
+      "description": "Reference condition preserving all pre-capacity resource actions; not a deployable staffing assumption."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "interpretation": "Declared-range design (alternative). Ranges were declared by the authors as stress-test settings.",
+  "action_set": {
+    "consensus_support_threshold": 0.7,
+    "suppress_support_threshold": 0.8,
+    "high_severity_floor": 8.0
+  },
+  "envelopes": [
+    {
+      "name": "clinical_safety_priority",
+      "n_points": 4096,
+      "seed": 20260723,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.45,
+          0.9
+        ],
+        "rho_alert": [
+          0.02,
+          0.3
+        ],
+        "rho_escalate": [
+          0.02,
+          0.25
+        ],
+        "burden_passive": [
+          0.02,
+          0.2
+        ],
+        "burden_alert": [
+          0.15,
+          0.55
+        ],
+        "burden_escalate": [
+          0.2,
+          0.65
+        ],
+        "uncertainty_penalty": [
+          0.6,
+          1.2
+        ],
+        "uncertainty_alert_fraction": [
+          0.2,
+          0.7
+        ],
+        "uncertainty_escalate_fraction": [
+          0.0,
+          0.35
+        ],
+        "repeat_alert_penalty": [
+          0.05,
+          0.4
+        ],
+        "managed_residual_fraction": [
+          0.2,
+          0.6
+        ],
+        "partly_managed_residual_fraction": [
+          0.5,
+          0.9
+        ],
+        "escalation_delay_penalty": [
+          0.0,
+          0.3
+        ]
+      }
+    },
+    {
+      "name": "workflow_balanced",
+      "n_points": 4096,
+      "seed": 20260724,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.35,
+          0.85
+        ],
+        "rho_alert": [
+          0.05,
+          0.4
+        ],
+        "rho_escalate": [
+          0.05,
+          0.35
+        ],
+        "burden_passive": [
+          0.05,
+          0.3
+        ],
+        "burden_alert": [
+          0.35,
+          0.85
+        ],
+        "burden_escalate": [
+          0.3,
+          0.9
+        ],
+        "uncertainty_penalty": [
+          0.35,
+          1.0
+        ],
+        "uncertainty_alert_fraction": [
+          0.25,
+          0.8
+        ],
+        "uncertainty_escalate_fraction": [
+          0.0,
+          0.4
+        ],
+        "repeat_alert_penalty": [
+          0.15,
+          0.7
+        ],
+        "managed_residual_fraction": [
+          0.2,
+          0.7
+        ],
+        "partly_managed_residual_fraction": [
+          0.5,
+          0.95
+        ],
+        "escalation_delay_penalty": [
+          0.0,
+          0.45
+        ]
+      }
+    },
+    {
+      "name": "alert_burden_priority",
+      "n_points": 4096,
+      "seed": 20260725,
+      "regret_quantile": 0.95,
+      "ranges": {
+        "rho_passive": [
+          0.25,
+          0.8
+        ],
+        "rho_alert": [
+          0.08,
+          0.45
+        ],
+        "rho_escalate": [
+          0.05,
+          0.4
+        ],
+        "burden_passive": [
+          0.08,
+          0.35
+        ],
+        "burden_alert": [
+          0.6,
+          1.2
+        ],
+        "burden_escalate": [
+          0.45,
+          1.1
+        ],
+        "uncertainty_penalty": [
+          0.2,
+          0.8
+        ],
+        "uncertainty_alert_fraction": [
+          0.35,
+          0.9
+        ],
+        "uncertainty_escalate_fraction": [
+          0.05,
+          0.5
+        ],
+        "repeat_alert_penalty": [
+          0.35,
+          1.0
+        ],
+        "managed_residual_fraction": [
+          0.15,
+          0.65
+        ],
+        "partly_managed_residual_fraction": [
+          0.45,
+          0.9
+        ],
+        "escalation_delay_penalty": [
+          0.1,
+          0.6
+        ]
+      }
+    }
+  ]
+}
