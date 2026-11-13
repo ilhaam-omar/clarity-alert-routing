@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article and this release."
+type: software
+title: "Routing medication safety concerns under finite capacity: code and aggregate results"
+version: "1.0.0"
+date-released: "2026-11-14"
+license: MIT
+repository-code: "https://github.com/Solidity-Contracts/clarity-alert-routing"
+# Add the Zenodo DOI after the first release is archived:
+# doi: "10.5281/zenodo.XXXXXXX"
+authors:
+  - family-names: "Omar"
+    given-names: "Ilhaam A."
+    affiliation: "Khalifa University of Science and Technology"
+  - family-names: "Simsekler"
+    given-names: "Mecit Can Emre"
+    affiliation: "Khalifa University of Science and Technology"
+  - family-names: "Sleptchenko"
+    given-names: "Andrei"
+    affiliation: "Khalifa University of Science and Technology"
+  - family-names: "Salah"
+    given-names: "Khaled"
+    affiliation: "Khalifa University of Science and Technology"
+  - family-names: "Omar"
+    given-names: "Mohammad"
+    affiliation: "Khalifa University of Science and Technology"
+keywords:
+  - medication safety
+  - alarm management
+  - clinical decision support
+  - capacity-constrained allocation
+  - robustness
+  - MIMIC-IV
