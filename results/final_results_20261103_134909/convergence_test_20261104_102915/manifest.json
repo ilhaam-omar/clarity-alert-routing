@@ -1,0 +1,14 @@
+{
+  "points": "4096,16384",
+  "seed_offsets": [
+    0,
+    101,
+    202
+  ],
+  "tie_breaking_seeds": 20,
+  "slots": {
+    "low_capacity": 2085,
+    "medium_capacity": 4171,
+    "high_capacity": 6256
+  }
+}

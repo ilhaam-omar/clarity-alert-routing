@@ -1,0 +1,5 @@
+initial_route,bundles,aki_and_hyperkalaemia,aki_only,hyperkalaemia_only,markers_per_bundle_mean
+alert,2672,133,793,90,0.687
+escalate,8342,215,2271,308,0.569
+passive,29667,721,8415,759,0.582
+suppress,3254,100,607,260,0.534

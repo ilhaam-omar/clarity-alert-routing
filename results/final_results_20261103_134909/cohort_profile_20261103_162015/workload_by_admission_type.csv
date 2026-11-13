@@ -1,0 +1,4 @@
+admission_type,admissions,prescription_records,order_bundles,affected_bundles,concerns,protected_bundles,concerns_per_admission
+index,785,113822,83905,26287,57403,3944,73.1
+follow_up,1423,78995,62337,17648,32314,2646,22.7
+unanchored,0,0,0,0,0,0,0.0

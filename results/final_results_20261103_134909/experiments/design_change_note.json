@@ -1,0 +1,9 @@
+{
+  "recorded": "2026-11-03T13:49:09",
+  "reason": "Final analysis: grounded weight design (weightings limited by definitional domains, structural orders and four reference-case judgements, so that each response is the intended response for at least one reference concern; no declared ranges) with 4,096 weightings per viewpoint, after the convergence test showed 1,024 left sampling noise in the review ranking. The earlier declared-range design is kept as config/uncertainty_design_declared_ranges.json and tested as an alternative.",
+  "weightings_per_viewpoint": [
+    4096
+  ],
+  "grounded": true,
+  "fingerprints_updated": {}
+}

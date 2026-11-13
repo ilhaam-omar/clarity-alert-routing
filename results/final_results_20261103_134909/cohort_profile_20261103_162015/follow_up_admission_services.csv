@@ -1,0 +1,13 @@
+clinical_service,admissions,percent
+MED,753,52.9
+SURG,576,40.5
+VSURG,36,2.5
+CMED,22,1.5
+NMED,<11,0.5
+TSURG,<11,0.4
+GU,<11,0.4
+ORTHO,<11,0.4
+unknown,<11,0.4
+CSURG,<11,0.2
+NSURG,<11,0.1
+TRAUM,<11,0.1

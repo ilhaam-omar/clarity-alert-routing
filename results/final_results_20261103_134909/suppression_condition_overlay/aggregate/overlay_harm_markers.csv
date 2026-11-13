@@ -1,0 +1,6 @@
+group,bundles,any_marker_percent,aki_percent,hyperkalaemia_percent
+targeted: would become passive (potassium-raising),230,38.7,30.0,
+targeted: remains suppressed,3024,43.12,21.1,11.67
+strict: would become passive,2443,44.0,21.24,13.59
+all suppressed in evaluated policy,3254,42.81,21.73,11.06
+passive in evaluated policy,29667,47.01,30.8,4.99

@@ -1,0 +1,11 @@
+variant,stage,no_new_notification_before,moved_to_passive,no_new_notification_after,share_of_suppression_kept_percent,passive_after
+strict: condition must be verifiable,initial routes (no capacity limits),3254,2443,811,24.9,32110
+strict: condition must be verifiable,"final routes, high_capacity",3254,2443,811,24.9,34196
+strict: condition must be verifiable,"final routes, low_capacity",3254,2443,811,24.9,35921
+strict: condition must be verifiable,"final routes, medium_capacity",3254,2443,811,24.9,35584
+strict: condition must be verifiable,"final routes, unconstrained_reference",3254,2443,811,24.9,32110
+targeted: potassium-raising drugs only,initial routes (no capacity limits),3254,230,3024,92.9,29897
+targeted: potassium-raising drugs only,"final routes, high_capacity",3254,230,3024,92.9,31983
+targeted: potassium-raising drugs only,"final routes, low_capacity",3254,230,3024,92.9,33708
+targeted: potassium-raising drugs only,"final routes, medium_capacity",3254,230,3024,92.9,33371
+targeted: potassium-raising drugs only,"final routes, unconstrained_reference",3254,230,3024,92.9,29897

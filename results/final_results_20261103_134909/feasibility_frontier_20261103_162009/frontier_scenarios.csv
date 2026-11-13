@@ -1,0 +1,4 @@
+scenario,allowance,allowance_per_100,review_slots,interruptions_required,feasible,allowance_needed_at_these_slots_per_100,slots_needed_at_this_allowance
+low_capacity,731,0.5,2085,4505,False,3.081,
+medium_capacity,1462,1.0,4171,2672,False,1.827,
+high_capacity,2924,1.999,6256,2672,True,1.827,3666.0

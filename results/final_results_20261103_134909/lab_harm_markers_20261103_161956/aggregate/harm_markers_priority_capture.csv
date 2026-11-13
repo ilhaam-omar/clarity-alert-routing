@@ -1,0 +1,13 @@
+scenario,review_slots,rule,seeds,pool_bundles_with_any_marker,selected_with_any_marker_mean,selected_with_aki_mean,selected_with_hyperkalaemia_mean,selected_with_any_marker_percent
+low_capacity,2085,severity,200,3858,922.2,557.4,107.9,44.23
+low_capacity,2085,regret,200,3858,957.2,626.2,95.0,45.91
+low_capacity,2085,context,200,3858,1053.4,710.7,104.8,50.52
+low_capacity,2085,uniform_random,200,3858,966.0,624.1,130.2,46.33
+medium_capacity,4171,severity,200,3858,1857.6,1132.5,219.7,44.54
+medium_capacity,4171,regret,200,3858,1929.0,1251.0,238.0,46.25
+medium_capacity,4171,context,200,3858,1925.2,1215.9,217.3,46.16
+medium_capacity,4171,uniform_random,200,3858,1928.7,1245.7,261.2,46.24
+high_capacity,6256,severity,200,3858,2854.7,1826.5,357.5,45.63
+high_capacity,6256,regret,200,3858,2938.2,1939.8,363.5,46.97
+high_capacity,6256,context,200,3858,3007.9,2042.7,349.9,48.08
+high_capacity,6256,uniform_random,200,3858,2892.0,1864.9,392.2,46.23

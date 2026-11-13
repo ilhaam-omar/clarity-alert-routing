@@ -1,0 +1,63 @@
+{
+  "ablations": [
+    {
+      "label": "Medication-exposure episode memory removed",
+      "name": "without_episode_memory",
+      "remove_acute_renal_context": false,
+      "remove_episode_memory": true,
+      "remove_transition_context": false,
+      "remove_transplant_protocol_context": false
+    },
+    {
+      "label": "Acute renal trajectory removed; current creatinine retained",
+      "name": "without_acute_renal_context",
+      "remove_acute_renal_context": true,
+      "remove_episode_memory": false,
+      "remove_transition_context": false,
+      "remove_transplant_protocol_context": false
+    },
+    {
+      "label": "Transplant protocol and structured monitoring interpretation removed",
+      "name": "without_transplant_protocol_context",
+      "remove_acute_renal_context": false,
+      "remove_episode_memory": false,
+      "remove_transition_context": false,
+      "remove_transplant_protocol_context": true
+    },
+    {
+      "label": "Steroid-taper and route-transition interpretation removed",
+      "name": "without_taper_route_transition_context",
+      "remove_acute_renal_context": false,
+      "remove_episode_memory": false,
+      "remove_transition_context": true,
+      "remove_transplant_protocol_context": false
+    }
+  ],
+  "affected_bundles": 43935,
+  "all_order_bundles": 146242,
+  "capacity_scenario": "medium_capacity",
+  "evidence_files": [
+    "09r_component_contribution_summary.csv",
+    "09r_state_metric_changes.csv",
+    "09r_signal_action_transitions.csv",
+    "09r_bundle_action_transitions.csv",
+    "09r_final_action_transitions.csv"
+  ],
+  "interpretation": "Algorithmic component contribution under the frozen Phase-1 policy; not a causal estimate of clinical benefit.",
+  "method": "rebuild_based_component_contribution",
+  "private_counterfactual_files": [
+    "09r_signal_counterfactuals.csv",
+    "09r_bundle_counterfactuals.csv"
+  ],
+  "signals": 89717,
+  "source_hashes": {
+    "orders": "ef9bc12fd1bfd8098439031363a8c70abe41a644df24213f5dfd6e0606969fea",
+    "primary_bundles": "1b2b49b4477535f46a4a31a8ef9337fc972aa91dc629b928f366660173f8c058",
+    "primary_decisions": "cd961dec1504d122830395979992251f72abd34cf110f182b26aa10b3072f53f",
+    "primary_final": "a8a9491d226d178486842ea40916ff0f8740ae3f76f9459e7e0c533fe9d9d5ea",
+    "primary_states": "2bc464c684b6bcf445cfa534c1ea2aeb33b09a009f4646e1c6128f0533266f6f",
+    "signals": "81773de3ef1e9bbbc41a7da0f4c5b55f01b03888c970fab07b040cd7e1477023"
+  },
+  "stage": "09R",
+  "uncertainty_design_points": 12288
+}

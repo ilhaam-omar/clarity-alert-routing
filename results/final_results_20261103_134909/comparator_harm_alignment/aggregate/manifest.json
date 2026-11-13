@@ -1,0 +1,6 @@
+{
+  "bundles": 43935,
+  "scenario": "unconstrained_reference",
+  "small_cell_rule": "counts 1-10 masked",
+  "interpretation": "markers reflect care received; not effects of routing"
+}

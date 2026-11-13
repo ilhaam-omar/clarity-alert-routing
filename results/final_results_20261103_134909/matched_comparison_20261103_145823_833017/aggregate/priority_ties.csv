@@ -1,0 +1,9 @@
+routing,candidate_route,priority,candidates,distinct_priority_values,candidates_in_tied_priority_groups,largest_tie_group
+clarity,escalate,severity,8342,3,8342,4313
+clarity,escalate,regret,8342,1639,6934,1499
+clarity,alert,severity,0,0,0,0
+clarity,alert,regret,0,0,0,0
+static,escalate,severity,3905,1,3905,3905
+static,escalate,regret,3905,801,3204,938
+static,alert,severity,0,0,0,0
+static,alert,regret,0,0,0,0

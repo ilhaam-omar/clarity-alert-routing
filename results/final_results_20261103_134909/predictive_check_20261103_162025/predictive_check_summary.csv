@@ -1,0 +1,13 @@
+population,bundles,marker_rate_percent,features,n_features,model,cv_auc_mean,cv_auc_min_fold,cv_auc_max_fold,cv_brier
+review_candidates,8342,46.2,severity_only,1,logistic,0.517,0.511,0.529,0.2488
+review_candidates,8342,46.2,priority_score,1,logistic,0.485,0.452,0.502,0.2495
+review_candidates,8342,46.2,model_state,23,logistic,0.651,0.628,0.672,0.2287
+review_candidates,8342,46.2,model_state,23,gradient_boosting,0.661,0.63,0.683,0.2275
+review_candidates,8342,46.2,all_structured,53,logistic,0.698,0.675,0.732,0.2185
+review_candidates,8342,46.2,all_structured,53,gradient_boosting,0.696,0.671,0.714,0.2197
+all_affected_bundles,43935,46.7,severity_only,1,logistic,0.515,0.51,0.519,0.2489
+all_affected_bundles,43935,46.7,priority_score,1,logistic,0.517,0.497,0.531,0.249
+all_affected_bundles,43935,46.7,model_state,23,logistic,0.638,0.623,0.648,0.2315
+all_affected_bundles,43935,46.7,model_state,23,gradient_boosting,0.648,0.636,0.66,0.2297
+all_affected_bundles,43935,46.7,all_structured,53,logistic,0.681,0.662,0.698,0.2241
+all_affected_bundles,43935,46.7,all_structured,53,gradient_boosting,0.692,0.683,0.715,0.2213

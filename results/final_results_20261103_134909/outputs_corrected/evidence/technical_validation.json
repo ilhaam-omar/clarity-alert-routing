@@ -1,0 +1,31 @@
+{
+  "action_rows": 89717,
+  "bundles": 43935,
+  "checks": {
+    "all_signal_bundles_present": true,
+    "bundle_ids_unique": true,
+    "high_capacity_no_duplicate_bundle": true,
+    "high_capacity_protected_alerts_remain_alert": "True",
+    "high_capacity_protected_reviews_remain_resource_actions": "True",
+    "low_capacity_no_duplicate_bundle": true,
+    "low_capacity_protected_alerts_remain_alert": "True",
+    "low_capacity_protected_reviews_remain_resource_actions": "True",
+    "medium_capacity_no_duplicate_bundle": true,
+    "medium_capacity_protected_alerts_remain_alert": "True",
+    "medium_capacity_protected_reviews_remain_resource_actions": "True",
+    "one_final_row_per_bundle_per_scenario": true,
+    "signal_ids_unique": true,
+    "signal_state_preservation": true,
+    "state_action_preservation": true,
+    "state_ids_unique": true,
+    "suppression_not_material_change": "True",
+    "suppression_only_standard_safety": "True",
+    "unconstrained_reference_no_duplicate_bundle": true,
+    "unconstrained_reference_protected_alerts_remain_alert": "True",
+    "unconstrained_reference_protected_reviews_remain_resource_actions": "True"
+  },
+  "orders": 192817,
+  "scenarios": 4,
+  "signals": 89717,
+  "states": 89717
+}

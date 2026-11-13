@@ -1,0 +1,5 @@
+snapshot_matrix_cell,pre_capacity_action,signal_count
+high_severity__high_evidence,alert,5298
+high_severity__lower_evidence,escalate,3822
+lower_severity__high_evidence,passive,63298
+lower_severity__lower_evidence,suppress,17299

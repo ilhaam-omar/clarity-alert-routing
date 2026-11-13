@@ -1,0 +1,41 @@
+ablation,component,metric,signals,changed_count,changed_percent,eligible_signal_count,changed_among_eligible_count,changed_among_eligible_percent
+without_episode_memory,Medication-exposure episode memory removed,management_status,89717,0,0.0,36867,0,0.0
+without_episode_memory,Medication-exposure episode memory removed,contextual_harm_index,89717,0,0.0,36867,0,0.0
+without_episode_memory,Medication-exposure episode memory removed,material_change_since_prior,89717,24998,27.863169744864408,36867,24998,67.80589687254184
+without_episode_memory,Medication-exposure episode memory removed,safety_class,89717,1063,1.184836764492794,36867,1063,2.88333740201264
+without_episode_memory,Medication-exposure episode memory removed,admissible_actions,89717,1063,1.184836764492794,36867,1063,2.88333740201264
+without_episode_memory,Medication-exposure episode memory removed,protocol_fit,89717,0,0.0,36867,0,0.0
+without_episode_memory,Medication-exposure episode memory removed,monitoring_status,89717,0,0.0,36867,0,0.0
+without_episode_memory,Medication-exposure episode memory removed,transition_status,89717,0,0.0,36867,0,0.0
+without_episode_memory,Medication-exposure episode memory removed,repeat_status,89717,36867,41.09254656308169,36867,36867,100.0
+without_episode_memory,Medication-exposure episode memory removed,acute_renal_deterioration,89717,0,0.0,36867,0,0.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,management_status,89717,0,0.0,21672,0,0.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,contextual_harm_index,89717,21672,24.155957064993256,21672,21672,100.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,material_change_since_prior,89717,935,1.0421659217316672,21672,440,2.030269472129937
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,safety_class,89717,1682,1.87478404315793,21672,1651,7.61812476928756
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,admissible_actions,89717,1682,1.87478404315793,21672,1651,7.61812476928756
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,protocol_fit,89717,0,0.0,21672,0,0.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,monitoring_status,89717,0,0.0,21672,0,0.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,transition_status,89717,0,0.0,21672,0,0.0
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,repeat_status,89717,935,1.0421659217316672,21672,440,2.030269472129937
+without_acute_renal_context,Acute renal trajectory removed; current creatinine retained,acute_renal_deterioration,89717,21672,24.155957064993256,21672,21672,100.0
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,management_status,89717,16270,18.134801654090083,17766,16270,91.57942136665541
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,contextual_harm_index,89717,0,0.0,17766,0,0.0
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,material_change_since_prior,89717,<11,0.001114615959071302,17766,<11,0.005628729032984352
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,safety_class,89717,14,0.015604623426998228,17766,14,0.07880220646178093
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,admissible_actions,89717,11825,13.180333716018147,17766,11825,66.55972081503997
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,protocol_fit,89717,17766,19.802267128860752,17766,17766,100.0
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,monitoring_status,89717,17766,19.802267128860752,17766,17766,100.0
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,transition_status,89717,0,0.0,17766,0,0.0
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,repeat_status,89717,<11,0.001114615959071302,17766,<11,0.005628729032984352
+without_transplant_protocol_context,Transplant protocol and structured monitoring interpretation removed,acute_renal_deterioration,89717,0,0.0,17766,0,0.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,management_status,89717,6698,7.465697693859581,6698,6698,100.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,contextual_harm_index,89717,0,0.0,6698,0,0.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,material_change_since_prior,89717,402,0.4480756155466634,6698,22,0.3284562555986862
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,safety_class,89717,48,0.0535015660354225,6698,0,0.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,admissible_actions,89717,5549,6.185003956886654,6698,5501,82.12899372947149
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,protocol_fit,89717,0,0.0,6698,0,0.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,monitoring_status,89717,0,0.0,6698,0,0.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,transition_status,89717,6698,7.465697693859581,6698,6698,100.0
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,repeat_status,89717,402,0.4480756155466634,6698,22,0.3284562555986862
+without_taper_route_transition_context,Steroid-taper and route-transition interpretation removed,acute_renal_deterioration,89717,0,0.0,6698,0,0.0

@@ -1,0 +1,6 @@
+{
+  "folds": 5,
+  "grouping": "patient (subject_id)",
+  "outcome": "any new-onset laboratory harm marker",
+  "interpretation": "Markers reflect care received; AUC measures how well the recorded features anticipate them."
+}

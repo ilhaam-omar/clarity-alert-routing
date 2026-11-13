@@ -1,0 +1,5 @@
+scenario,affected_orders,snapshot_vs_clarity_action_agreement_percent,snapshot_vs_clarity_changed_cases,snapshot_vs_clarity_changed_percent,snapshot_direct_alerts,snapshot_enhanced_reviews,snapshot_passive,snapshot_suppress,clarity_direct_alerts,clarity_enhanced_reviews,clarity_passive,clarity_suppress,direct_alert_difference_clarity_minus_snapshot,review_difference_clarity_minus_snapshot,snapshot_protected_safety_violations,clarity_protected_safety_violations
+low_capacity,43935,79.65403436895414,8939,20.345965631045864,5788,802,28825,8520,5118,2085,33478,3254,-670,1283,0,0
+medium_capacity,43935,77.64424718333902,9822,22.355752816660978,4986,1604,28825,8520,3369,4171,33141,3254,-1617,2567,0,0
+high_capacity,43935,77.56003186525548,9859,22.439968134744507,4184,2406,28825,8520,2672,6256,31753,3254,-1512,3850,0,0
+unconstrained_reference,43935,78.22465005121202,9567,21.775349948787984,3381,3209,28825,8520,2672,8342,29667,3254,-709,5133,0,0

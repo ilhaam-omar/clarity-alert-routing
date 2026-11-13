@@ -1,0 +1,5 @@
+scenario,frontline_slots,expert_slots,basis
+low_capacity,731,2085,Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand.
+medium_capacity,1462,4171,Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand.
+high_capacity,2924,6256,Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand.
+unconstrained_reference,2685,8342,No scarcity: maximum route demand across both routing policies; same F and K for every arm.

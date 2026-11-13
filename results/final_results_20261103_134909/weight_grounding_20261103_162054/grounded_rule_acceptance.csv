@@ -1,0 +1,4 @@
+viewpoint,rules,share_of_domain_satisfying_rules_percent
+clinical_safety_priority,A1_serious_new/act; A4_serious_doubtful_new/review; A2_low_unchanged_third_repeat/quiet; A3_moderate_new/act,10.88
+workflow_balanced,A1_serious_new/act; A4_serious_doubtful_new/review; A2_low_unchanged_third_repeat/quiet,11.65
+alert_burden_priority,A1_serious_new/act; A4_serious_doubtful_new/review; A2_low_unchanged_third_repeat/quiet; A3_moderate_new/quiet,0.77

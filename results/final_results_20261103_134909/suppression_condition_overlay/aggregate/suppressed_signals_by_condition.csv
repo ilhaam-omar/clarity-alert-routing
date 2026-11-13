@@ -1,0 +1,4 @@
+rule_family,condition,needs_unavailable_data,suppressed_signals
+drug_drug_interaction,combination stable and previously tolerated; routine post-transplant analgesia,False,306
+duplicate_therapy,(no condition stated in catalogue),False,1490
+renal_dose_adjustment,recent pharmacist verification after same renal function state,True,4307

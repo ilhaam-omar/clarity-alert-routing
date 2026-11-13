@@ -1,0 +1,87 @@
+{
+  "experiment_version": "1.0",
+  "scope": "Conditional matched-gate, matched-absolute-capacity factorial comparison; no clinical outcome inference.",
+  "arms": {
+    "A_static_severity": {
+      "initial_routing": "static",
+      "queue_priority": "severity"
+    },
+    "B_clarity_severity": {
+      "initial_routing": "clarity",
+      "queue_priority": "severity"
+    },
+    "C_static_regret": {
+      "initial_routing": "static",
+      "queue_priority": "regret"
+    },
+    "D_clarity_regret": {
+      "initial_routing": "clarity",
+      "queue_priority": "regret"
+    }
+  },
+  "common_components": [
+    "Frozen cohort, detector and reconstructed state",
+    "Hard safety classes and admissibility",
+    "Strict suppression eligibility from corrected Stage04",
+    "Corrected Stage04 non-resource fallback",
+    "Identical bundle precedence",
+    "Absolute frontline and review slots",
+    "Protected spillover behavior"
+  ],
+  "interpretation_boundaries": [
+    "Static arms share the optimiser-derived suppression gate and fallback; this is not an optimisation-free baseline.",
+    "Contrasts estimate incremental initial route selection and queue priority conditional on shared components.",
+    "Severity-only priority is prespecified for this experiment; ties use bundle ID, not clinical arrival time.",
+    "Selected-review robust advantage is an internal model score, not independent evidence of safety or appropriateness.",
+    "Equal route totals can hide different review recipients; paired overlap is reported.",
+    "The experiment assesses algorithmic allocation, not professional assessment."
+  ],
+  "suppress_threshold": 0.8,
+  "high_severity_threshold": 8.0,
+  "signals": 89717,
+  "affected_bundles": 43935,
+  "total_order_bundles": 146242,
+  "source_hashes": {
+    "clarity_v3/__init__.py": "846d2b12132f9e036a4dda3e1d69756b95eb067ae934b4e66dee3f981896efe7",
+    "clarity_v3/bundles.py": "ad5294cff9ab2e918d29abab8fb9b3ee9d8d7f57019a1e0002cad38ddf812d64",
+    "clarity_v3/models.py": "cdb609e41b7f8ae30a7a54477b4647129cb7b9fc8f7c5be70e51a148f7368946",
+    "clarity_v3/capacity.py": "6df7da9377f8b7d2f8ddc12359f0abc09dd59fd1bad53a857f965070139a8e24",
+    "config/state_builder.json": "64bbec74927f8c3bc64124a792d6dc6534100a4f545b29b5e911c93f0205138a",
+    "config/uncertainty_design.json": "be1cda91452489a840ea34278cd65ccac8c1353350446c93d997295a81b5d875",
+    "config/capacity_scenarios.json": "a1490adc766f4d891d751650aea28f6b0717932838395c969154cc031441c557",
+    "clarity_v3/uncertainty.py": "6011b5bbcb98e946ec9f9a23cab13429b8002ccbfda2e3931c16df03624f51f5"
+  },
+  "input_hashes": {
+    "01_order_timeline.csv": "ef9bc12fd1bfd8098439031363a8c70abe41a644df24213f5dfd6e0606969fea",
+    "03_longitudinal_states.csv": "2bc464c684b6bcf445cfa534c1ea2aeb33b09a009f4646e1c6128f0533266f6f",
+    "04_action_sets.csv": "cd961dec1504d122830395979992251f72abd34cf110f182b26aa10b3072f53f",
+    "05_order_bundles.csv": "1b2b49b4477535f46a4a31a8ef9337fc972aa91dc629b928f366660173f8c058",
+    "06_final_bundle_decisions.csv": "a8a9491d226d178486842ea40916ff0f8740ae3f76f9459e7e0c533fe9d9d5ea"
+  },
+  "script_hashes": {
+    "allocation_robustness.py": "82dcd25f50653d1ca040e26b4778b85c31966131d2a1c4fc80d7499fd95e1382",
+    "bootstrap_marker_contrasts.py": "31ba992ed309f8a490409d5feebf6717f359942931b215ac1131d02eae79396d",
+    "cohort_profile.py": "49f0148f0ae0a47a669232ce52530939f55f99e4c0dc40c004ce4a38c522a1c9",
+    "comparator_harm_alignment.py": "779bdca3d1d1c518817ec19706bd16c9d1dd473be3b0cb7835b81e95bfa22c6d",
+    "convergence_test.py": "ec4b272ad09dbcead31e712ce22fa98ed58ddfa50bebd0662baed4d958ca8d81",
+    "feasibility_frontier.py": "7cbbbe346a919b8e793fb0491c9796da2dfaf68c9aee9d0fe75c15bb2f0a4421",
+    "history_check.py": "cc54bd088f770a00bd2e43fb9aa237365104ee1ab86613a210969a2c315ad6c1",
+    "information_ceiling.py": "347aec0041d1e2b67d449ccbe335ba72a73c4d581fd0cf04fd098674ecd03118",
+    "lab_harm_markers.py": "3e226be00a4f3b6408ba9744438090cca5b13c54b7e7c0366591528be5ac7e05",
+    "matched_capacity.py": "95c96bb2d3c1591a9f77ef1f2f88de469200d4f3059d800bc0006b551c2736c2",
+    "matched_policies.py": "f5f6c4572b5034fa16a58f1b41d53b2cd9bebb21bc35bb8252455ebe52b74628",
+    "parameter_sensitivity_allocation.py": "ef00a36c77def52ae922090973b90411e1ef0ae1788c42347ada91a4bc5e12db",
+    "predictive_check.py": "ba43a6bd8e8e7fb55d82c6792dde5797ea073672fc67e33c9b99ab33c8a84ac2",
+    "record_design_change.py": "acaf76ea19ad1fbbb62296c2b4be3a17b09bff0621b0733be83fcf5c6fc125bf",
+    "robust_tier.py": "1b93d641fa14d8f05568dd058c95b03fcf6c0a50f33c163ea2b1f6400ab50b94",
+    "run_all_final.py": "55319c4a4da0b9dade806cfcb0d97d4beccd627ca6dea55fcded7f8604cfafab",
+    "run_matched_comparison.py": "e9789dd6c65b764393ac7fb004e42b141ac58073f0de1594106078451442a80f",
+    "set_design_points.py": "da798ca5c468c001b26c56c34e607ac379e09fd7465b81dd0c3009fbe4e6de7d",
+    "suppression_condition_overlay.py": "496b17061b83248c0be42b4a688aca2d45de051b842bee4fd32fc6c580c6906a",
+    "weight_grounding.py": "24a6c83ae6682d3e8385c5e7cc9f452ece409dfa2ef1cc7d35fb59a9cf31eeb7"
+  },
+  "python": "3.13.11",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "clinical_validation": false
+}

@@ -1,0 +1,31 @@
+[13:49:09] FINAL ANALYSIS RUN 20261103_134909
+[13:49:09] START 1 record final weight design
+[13:49:09] DONE  1 record final weight design (0.0 min)
+[13:49:09] START 2a check frozen inputs
+[13:49:11] DONE  2a check frozen inputs (0.0 min)
+[13:49:11] START 2b rebuild routing
+[15:00:34] DONE  2b rebuild routing (71.4 min)
+[15:00:34] START 3a allocation robustness
+[15:20:16] DONE  3a allocation robustness (19.7 min)
+[15:20:16] START 3b parameter sensitivity
+[16:12:01] DONE  3b parameter sensitivity (51.7 min)
+[16:12:01] START 3c robustness classification
+[16:19:32] DONE  3c robustness classification (7.5 min)
+[16:19:32] START 4 laboratory harm markers
+[16:19:59] DONE  4 laboratory harm markers (0.5 min)
+[16:19:59] START 5a comparator harm alignment
+[16:20:02] DONE  5a comparator harm alignment (0.0 min)
+[16:20:02] START 5b suppression check
+[16:20:06] DONE  5b suppression check (0.1 min)
+[16:20:06] START 6a feasibility frontier
+[16:20:11] DONE  6a feasibility frontier (0.1 min)
+[16:20:11] START 6b cohort profile
+[16:20:16] DONE  6b cohort profile (0.1 min)
+[16:20:16] START 6c predictive check
+[16:20:48] DONE  6c predictive check (0.5 min)
+[16:20:48] START 6d weight designs
+[10:12:27] DONE  6d weight designs (1071.7 min)
+[10:12:27] START 6e history check
+[10:29:10] DONE  6e history check (16.7 min)
+[10:29:10] START 7 convergence confirmation
+[10:31:47] DONE  7 convergence confirmation (2.6 min)

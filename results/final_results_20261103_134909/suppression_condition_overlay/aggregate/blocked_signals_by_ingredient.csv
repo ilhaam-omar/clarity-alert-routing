@@ -1,0 +1,22 @@
+rule_family,ingredient,suppressed_signals
+renal_dose_adjustment,famotidine,1322
+renal_dose_adjustment,potassium chloride,801
+renal_dose_adjustment,magnesium sulfate,466
+renal_dose_adjustment,hydromorphone,463
+renal_dose_adjustment,sulfamethoxazole-trimethoprim,459
+renal_dose_adjustment,cefazolin,416
+renal_dose_adjustment,vancomycin,106
+renal_dose_adjustment,fluconazole,73
+renal_dose_adjustment,ciprofloxacin,48
+renal_dose_adjustment,gabapentin,34
+renal_dose_adjustment,allopurinol,24
+renal_dose_adjustment,cefepime,24
+renal_dose_adjustment,piperacillin-tazobactam,18
+renal_dose_adjustment,levofloxacin,16
+renal_dose_adjustment,apixaban,16
+renal_dose_adjustment,metoclopramide,<11
+renal_dose_adjustment,meropenem,<11
+renal_dose_adjustment,ceftazidime,<11
+renal_dose_adjustment,pregabalin,<11
+renal_dose_adjustment,ertapenem,<11
+renal_dose_adjustment,valacyclovir,<11

@@ -1,0 +1,13 @@
+specification_set,specifications,scenario,review_slots,candidates,robustly_selected,undetermined,robustly_excluded,slots_filled_by_robust_percent,slots_left_to_choice
+tie_breaking_only,1,low_capacity,2085,8342,2062,35,6245,98.8968824940048,23
+tie_breaking_only,1,medium_capacity,4171,8342,4171,0,4171,100.0,0
+tie_breaking_only,1,high_capacity,6256,8342,5985,390,1967,95.66815856777494,271
+numerical_settings,6,low_capacity,2085,8342,1513,1953,4876,72.56594724220624,572
+numerical_settings,6,medium_capacity,4171,8342,2753,2184,3405,66.0033565092304,1418
+numerical_settings,6,high_capacity,6256,8342,5929,489,1924,94.7730179028133,327
+plus_range_width,7,low_capacity,2085,8342,1304,2595,4443,62.541966426858515,781
+plus_range_width,7,medium_capacity,4171,8342,2017,3460,2865,48.357707983696955,2154
+plus_range_width,7,high_capacity,6256,8342,5615,988,1739,89.75383631713555,641
+plus_fixed_point,8,low_capacity,2085,8342,1099,2995,4248,52.70983213429257,986
+plus_fixed_point,8,medium_capacity,4171,8342,1808,4258,2276,43.34691920402781,2363
+plus_fixed_point,8,high_capacity,6256,8342,5066,1826,1450,80.97826086956522,1190

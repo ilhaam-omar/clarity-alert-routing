@@ -1,0 +1,9 @@
+{
+  "order_bundles": 146242,
+  "affected_bundles": 43935,
+  "must_interrupt_M": 2672,
+  "protected_review_P": 3918,
+  "allowance_threshold_unlimited_review_per_100": 1.827,
+  "allowance_threshold_no_review_per_100": 4.506,
+  "interpretation": "Feasible region: allowance >= M and allowance + review slots >= M + P. Independent of routing method, ranking and weights."
+}

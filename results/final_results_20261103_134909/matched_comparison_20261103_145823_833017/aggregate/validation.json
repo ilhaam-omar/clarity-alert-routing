@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "state_decision_identity_and_shared_fields_match": true,
+    "saved_bundle_and_final_denominators_match": true,
+    "rebuilt_corrected_bundles_match_saved": true,
+    "low_capacity_clarity_replay_exact": true,
+    "medium_capacity_clarity_replay_exact": true,
+    "high_capacity_clarity_replay_exact": true,
+    "unconstrained_reference_clarity_replay_exact": true,
+    "no_scarcity_ranking_invariance": true
+  },
+  "signal_checks": {
+    "clarity": {
+      "unique_signal_ids": true,
+      "defined_routes": true,
+      "fallbacks_are_non_resource_routes": true,
+      "selected_routes_admissible": true,
+      "suppression_gate_holds": true,
+      "suppression_fallback_gate_holds": true,
+      "nonprotected_fallback_admissible": true,
+      "protected_alerts_retained": true,
+      "protected_reviews_retained": true
+    },
+    "static_common_gate": {
+      "unique_signal_ids": true,
+      "defined_routes": true,
+      "fallbacks_are_non_resource_routes": true,
+      "selected_routes_admissible": true,
+      "suppression_gate_holds": true,
+      "suppression_fallback_gate_holds": true,
+      "nonprotected_fallback_admissible": true,
+      "protected_alerts_retained": true,
+      "protected_reviews_retained": true
+    }
+  },
+  "all_recorded_checks_pass": true,
+  "allocation_runs": 16
+}

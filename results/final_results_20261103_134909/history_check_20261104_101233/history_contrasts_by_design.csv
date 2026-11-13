@@ -1,0 +1,4 @@
+design,clarity_suppressed,clarity_interrupt,clarity_review,kept_visible_bundles,kept_visible_marker_percent,kept_visible_ci,both_suppressed_bundles,both_suppressed_marker_percent,both_suppressed_ci,moved_to_review_bundles,moved_to_review_marker_percent,moved_to_review_ci,both_interrupt_bundles,both_interrupt_marker_percent,both_interrupt_ci
+primary,3254,2672,8342,3400,46.9,43.5-50.2,2220,41.7,38.7-44.9,709,42.0,37.6-46.3,2672,50.2,45.5-54.9
+declared_ranges,1601,2672,3918,7600,48.0,45.1-51.2,920,37.0,33.1-40.9,709,42.0,37.6-46.3,2672,50.2,45.5-54.9
+definitional_domain,3254,6175,415,6300,48.7,45.4-52.0,2220,41.7,38.7-44.9,315,23.5,17.9-29.6,3066,51.0,46.8-55.4

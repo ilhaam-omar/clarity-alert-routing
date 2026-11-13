@@ -1,0 +1,15 @@
+routing,field,value,candidates
+clarity,highest_base_severity,3.0,111
+clarity,highest_base_severity,5.0,4313
+clarity,highest_base_severity,8.0,3918
+clarity,any_acute_renal_deterioration,0.0,6212
+clarity,any_acute_renal_deterioration,1.0,2130
+clarity,any_material_change,0.0,6573
+clarity,any_material_change,1.0,1769
+clarity,delta_expert_distinct_values,1639.0,8342
+static,highest_base_severity,8.0,3905
+static,any_acute_renal_deterioration,0.0,3046
+static,any_acute_renal_deterioration,1.0,859
+static,any_material_change,0.0,3330
+static,any_material_change,1.0,575
+static,delta_expert_distinct_values,801.0,3905

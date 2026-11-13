@@ -1,0 +1,67 @@
+{
+  "experiment": "parameter_sensitivity_allocation",
+  "version": "1.0",
+  "tie_seeds": 200,
+  "fixed_midpoint_vector_workflow_balanced": {
+    "rho_passive": 0.683711901810754,
+    "rho_alert": 0.45453223933444853,
+    "rho_escalate": 0.21611058603125555,
+    "burden_passive": 0.6531311759447715,
+    "burden_alert": 0.7855321856808227,
+    "burden_escalate": 0.6688411173347812,
+    "uncertainty_penalty": 0.6136464947248657,
+    "uncertainty_alert_fraction": 0.632805286713369,
+    "uncertainty_escalate_fraction": 0.24234121550826682,
+    "repeat_alert_penalty": 0.4930541389240467,
+    "managed_residual_fraction": 0.5026574478235057,
+    "partly_managed_residual_fraction": 0.700089586872698,
+    "escalation_delay_penalty": 0.20571958486789355
+  },
+  "contracted_ranges_fraction": 0.5,
+  "capacity_limits": [
+    {
+      "scenario": "low_capacity",
+      "frontline_slots": 731,
+      "expert_slots": 2085,
+      "basis": "Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand."
+    },
+    {
+      "scenario": "medium_capacity",
+      "frontline_slots": 1462,
+      "expert_slots": 4171,
+      "basis": "Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand."
+    },
+    {
+      "scenario": "high_capacity",
+      "frontline_slots": 2924,
+      "expert_slots": 6256,
+      "basis": "Fixed absolute slots from the corrected CLARITY reference; never recomputed from comparator demand."
+    }
+  ],
+  "checks": {
+    "primary_stage04_recomputed_exactly": true,
+    "bundle_score_aggregation_matches_saved": true
+  },
+  "source_hashes": {
+    "clarity_v3/__init__.py": "846d2b12132f9e036a4dda3e1d69756b95eb067ae934b4e66dee3f981896efe7",
+    "clarity_v3/bundles.py": "ad5294cff9ab2e918d29abab8fb9b3ee9d8d7f57019a1e0002cad38ddf812d64",
+    "clarity_v3/models.py": "cdb609e41b7f8ae30a7a54477b4647129cb7b9fc8f7c5be70e51a148f7368946",
+    "clarity_v3/capacity.py": "6df7da9377f8b7d2f8ddc12359f0abc09dd59fd1bad53a857f965070139a8e24",
+    "config/state_builder.json": "64bbec74927f8c3bc64124a792d6dc6534100a4f545b29b5e911c93f0205138a",
+    "config/uncertainty_design.json": "be1cda91452489a840ea34278cd65ccac8c1353350446c93d997295a81b5d875",
+    "config/capacity_scenarios.json": "a1490adc766f4d891d751650aea28f6b0717932838395c969154cc031441c557",
+    "clarity_v3/uncertainty.py": "6011b5bbcb98e946ec9f9a23cab13429b8002ccbfda2e3931c16df03624f51f5"
+  },
+  "script_hash": "ef00a36c77def52ae922090973b90411e1ef0ae1788c42347ada91a4bc5e12db",
+  "python": "3.13.11",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "runtime_seconds": 3103,
+  "interpretation_boundaries": [
+    "Agreement across specifications is computational stability, not clinical validity.",
+    "The fixed-midpoint vector is a declared assumption, not an estimate.",
+    "Contracted ranges test dependence on range width, not calibration.",
+    "Variation across tie keys is algorithmic variability, not a confidence interval."
+  ],
+  "clinical_validation": false
+}

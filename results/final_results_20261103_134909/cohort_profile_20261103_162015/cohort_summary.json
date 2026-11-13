@@ -1,0 +1,15 @@
+{
+  "patients": 771,
+  "admissions": 2208,
+  "admissions_by_type": {
+    "follow_up": 1423,
+    "index": 785
+  },
+  "follow_up_share_percent": 64.4,
+  "admissions_per_patient_median": 2.0,
+  "admissions_per_patient_iqr": [
+    1.0,
+    4.0
+  ],
+  "patients_with_follow_up_admission": 570
+}

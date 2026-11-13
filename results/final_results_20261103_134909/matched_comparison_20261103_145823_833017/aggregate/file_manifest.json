@@ -1,0 +1,11 @@
+{
+  "policy_summary.csv": "1d3b5e91df332d5bd34189100190ae1297d6623b169c929e7f0249f1baeffdf6",
+  "paired_comparisons.csv": "7745cffd965c7dffe2f90e7d7d96dd264ffa6fb8a9fb836ae2f20db81e51cc6e",
+  "route_transitions.csv": "71ee3b12ae1fb94c855c0b2f88b1f87c73aac5c028c8fcab8fa1007b87fec736",
+  "stratified_changes.csv": "59650b5a708caeaf931b4aa80e858651b27f28b82581fc345d95908fb0707754",
+  "matched_capacity_limits.csv": "862152d35b0f3839161684ae3310dd548dffb9bcb913a878a19a4ee730810bd1",
+  "priority_ties.csv": "8e3c7e968746abe9e4428a050fb550792576f291d39db4352791fd9cfc8778c6",
+  "experiment_manifest.json": "72180a063d27cbb5df9c4695d9199bdeec4f774f4e63802e5a6153b6d8015d16",
+  "validation.json": "8c014b45ba206db380a13cb2e51cb6f897afdec747f98a64c2ef46544bc7e0a8",
+  "READ_ME.txt": "93b852081e20c7c5994f5b93ae86b1204c123a4095ce5d90becec7f003ff7f52"
+}

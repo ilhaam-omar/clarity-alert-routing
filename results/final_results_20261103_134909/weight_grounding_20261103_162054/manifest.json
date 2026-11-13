@@ -1,0 +1,27 @@
+{
+  "designs": [
+    "primary",
+    "declared_ranges",
+    "declared_one_envelope",
+    "declared_widened_50pct",
+    "definitional_domain"
+  ],
+  "upper_bound_non_share_weights": 1.0,
+  "points_per_viewpoint": 4096,
+  "tie_breaking_seeds": 20,
+  "slots": {
+    "low_capacity": [
+      731,
+      2085
+    ],
+    "medium_capacity": [
+      1462,
+      4171
+    ],
+    "high_capacity": [
+      2924,
+      6256
+    ]
+  },
+  "interpretation": "Computed decisions on replayed records. Anchored ranges follow from the stated anchor judgments and the definitional domain; they are not calibrated estimates."
+}

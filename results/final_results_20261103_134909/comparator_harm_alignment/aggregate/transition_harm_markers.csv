@@ -1,0 +1,10 @@
+snapshot_route,clarity_route,bundles,aki_percent,hyperkalaemia_percent,hypoglycaemia_percent,high_inr_percent,high_tacrolimus_percent,any_marker_percent
+alert,alert,2672,34.66,8.35,1.12,6.44,18.15,50.19
+alert,escalate,709,22.85,12.55,,1.55,18.9,42.03
+escalate,escalate,3209,27.61,3.55,1.46,0.84,20.44,44.81
+passive,escalate,1524,27.03,7.35,1.57,1.77,14.9,42.72
+passive,passive,26267,30.37,4.98,1.21,1.53,20.28,47.03
+passive,suppress,1034,15.47,20.12,2.32,2.42,17.31,45.16
+suppress,escalate,2900,35.38,7.17,0.76,2.1,17.17,50.72
+suppress,passive,3400,34.09,5.06,0.91,1.47,15.32,46.88
+suppress,suppress,2220,24.64,6.85,1.04,1.58,17.34,41.71

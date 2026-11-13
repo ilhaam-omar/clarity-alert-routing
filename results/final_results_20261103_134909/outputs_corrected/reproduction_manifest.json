@@ -1,0 +1,19 @@
+{
+  "frozen_input_hashes": {
+    "01_order_timeline.csv": "ef9bc12fd1bfd8098439031363a8c70abe41a644df24213f5dfd6e0606969fea",
+    "02_detected_hazards.csv": "81773de3ef1e9bbbc41a7da0f4c5b55f01b03888c970fab07b040cd7e1477023",
+    "03_longitudinal_states.csv": "2bc464c684b6bcf445cfa534c1ea2aeb33b09a009f4646e1c6128f0533266f6f"
+  },
+  "stages": [
+    "04_identify_action_sets.py",
+    "05_build_order_bundles.py",
+    "06_apply_dual_capacity.py",
+    "07_validate_outputs.py",
+    "09_context_ablation.py",
+    "10_specification_sensitivity.py",
+    "10a_capacity_factorial_sensitivity.py",
+    "10b_static_severity_certainty_comparator.py"
+  ],
+  "extended": true,
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]"
+}
