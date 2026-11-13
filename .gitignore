@@ -1,0 +1,41 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Local configuration (may contain local paths)
+config/*.local.json
+
+# Restricted data and every patient-level output
+**/private/
+/restricted/
+/data_local/
+/data_processed/
+*.sqlite3
+
+# Local run folders at the top level only (the released aggregate outputs live in results/)
+/outputs_corrected/
+/outputs_corrected_*/
+/outputs_synthetic/
+/demo_data/
+/allocation_robustness_*/
+/bootstrap_marker_contrasts*/
+/cohort_profile_*/
+/comparator_harm_alignment*/
+/convergence_test_*/
+/feasibility_frontier_*/
+/history_check_*/
+/information_ceiling_*/
+/lab_harm_markers_*/
+/matched_comparison_*/
+/parameter_sensitivity_*/
+/predictive_check_*/
+/robust_tier_*/
+/suppression_condition_overlay*/
+/weight_grounding_*/
+/final_results_*/
+
+# Archives and logs
+*.zip
+*.log
